@@ -15,7 +15,7 @@ function showPage( page )
       else
         $("button").focus();
       //Unfold the story
-      $("#"+page+" part").each( function( i , e ){ $(e).fadeIn( 750 + i*750 ) } );
+      $("#"+page+" part").each( function( i , e ){ $(e).fadeIn( i*600 ) } );
     });
   });
 
