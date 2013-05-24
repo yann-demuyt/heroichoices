@@ -14,8 +14,16 @@ function showPage( page )
         $("select:visible").focus();
       else
         $("button").focus();
+      //Unfold the story
+      $("#"+page+" part").each( function( i , e ){ $(e).fadeIn( 750 + i*750 ) } );
     });
   });
+
+}
+
+function unfoldStory()
+{
+  $("part:hidden").eq(0).fadeIn( 750 , unfoldStory );
 }
 
 //Magic buttons, to replace `prompt` and `alert` ok
