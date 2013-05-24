@@ -25,9 +25,34 @@ Play on my friend,I hope you a winner!
 </span>
 
 <span id="firstScene">
-<part>A high elfe and a dwarf were hanging out at the merchant, waiting to go to the shops. There was a sale on and both needed some new equipment for their kingdom.</part>
-<part>You've never really liked dwarfes. You walk up to him.
+<part>A high elfe and a dwarf were hanging out at the merchant, waiting to go to the shops.</part>
+<part>There was a sale on and both needed some new equipment for their kingdom.</part>
+<part>You've never really liked dwarfes. You walk up to him.</part>
+<part>The dwarf glares at you.");</part>
+<part><b>-You-</b> <i>Step out of the line dwarf, the high elfe goes first!</i></span>
+<part><b>Dwarf-</b> <i>Are you feeling lucky,punk?</i></part>
+
+<button button="button"  data-go="dwarfWins">Yes</button> <button button="button"  data-go="chest1">No</button>
 </span>      
+
+<span id="dwarfWins">
+  The dwarf uppercuts you and then knees you in the stomach and slaugthers you with his axe.
+  <button button="button"  data-go="firstScene">Try again</button>
+</span>
+
+<span id="chest1">
+  <part>The dwarf knudges you but the high elfe says thank you.</part> T
+  <part>
+  The high elfe hops on the buse then you spy a huge chest on the side of the merchant house
+  do you open it yes or no?
+  <button button="button"  data-go="todo">Yes</button> <button button="button"  data-go="todo">No</button>  
+  </part>
+<span>
+
+<span id="todo">
+  The amazing adventures written by Yann Demuyt end here for now, come back later for more!!!
+</span>
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="game.js" type="text/javascript"></script>
