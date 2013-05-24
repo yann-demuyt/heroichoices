@@ -5,7 +5,7 @@ function showPage( page )
   $("span:visible").fadeOut(750 , function()
   {
     //Fade in the new page
-    $("#"+page).fadeIn(1500), function()
+    $("#"+page).fadeIn(1500, function()
     {
       //Give focus to whatever is appropriate
       if( $("input:visible").length )
