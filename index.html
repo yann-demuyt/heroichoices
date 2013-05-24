@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Yann's adventure game</title>
-    </head>
-    <body>
-      <span id="intro">
-        Welcome to Yann's adventure game
-        What is your age?
-        <input type="text"></input>
-        <button button="button">OK</button>
-      </span>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <title>Yann's adventure game</title>
+   <link href="game.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1>Yann's Story Game</h1>
+
+<span id="intro">
+Welcome to Yann's adventure game
+What is your age?
+<input type="text"></input><button button="button">OK</button>
+</span>
+      
+<span id="youngPlayer">
+You can continue playing but we take no responsibility
+<button button="button" data-go="firstScene">OK</button>
+</span>
+
+<span id="oldPlayer">
+Play on my friend,I hope you a winner!
+<button button="button"  data-go="firstScene">OK</button>
+</span>
+
+<span id="firstScene">
+<part>A high elfe and a dwarf were hanging out at the merchant, waiting to go to the shops. There was a sale on and both needed some new equipment for their kingdom.</part>
+<part>You've never really liked dwarfes. You walk up to him.
+</span>      
+
+<script src="game.js" type="text/javascript"></script>
+<script type="text/javascript">
+//This is the intro
+//Fade in the intro, the title (h1)  and give the input box focus
+$("#intro").fadeIn(1500);
+$("h1").fadeIn(1500);
+$("input").focus();
+
+//This is linked to <span id="intro">
+function intro( age )
+{
+  if( age < 18 )
+    showPage( "youngPlayer" )
+  else
+    showPage( "oldPlayer" );
+}
+
+//
+
+
+</script>
+</body>
 </html>
