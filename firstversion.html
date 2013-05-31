@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Yann's adventure game</title>
+    </head>
+    <body>
+    <script>
+
+function doGame()
+{
+
+alert ("A high elfe and a dwarf were hanging out at the merchant, waiting to go to the shops. There was a sale on and both needed some new equipment for their kingdom. You've never really liked dwarfes. You walk up to him.");
+alert ("the dwarf glares at you.");
+alert ("You-  Step out of the line dwarf, the high elfe goes first!");
+alert ("Dwarf-  Are you feeling lucky,punk?");
+var userAnswer = prompt ("answer yes or no");
+if (userAnswer == 'yes')
+{
+    alert ("The dwarf uppercuts you and then knees you in the stomach and slaugthers you with his axe!");
+    return;
+}
+
+alert ("The dwarf knudges you but the high elfe says thank you. The high elfe hops on the buse then you spy a huge chest on the side of the merchant house.");
+ userAnswer = prompt ("do you open it yes or no?");
+if (userAnswer == 'no' )
+{
+  alert ("you turn around for you have felt something on youre back you realise that youre brain is not in youre head but on the floor. You have been atacked by goblins!!!");    
+  return;
+}
+
+alert ("you pick it up and find a level 5 bow and a enchanted sword");
+alert ("you have won the 1 level now you are entering the 2 level tadada!!");
+alert ("you feel yourself teleporting boom you land on a boiled surface. In front of you is a level 3 soldier goblin");
+ userAnswer = prompt ("do you try to take it down with your bow or sword? write bow or sword");
+if (userAnswer == 'bow')
+{
+    alert("You shot it straight in the heart but the goblin screams and the whole tribe of goblins comes out of their caves and surround you");
+    alert("You die a horrible death in their soup pot");
+    return;
+}    
+
+alert ("you swing it and kill him fast he does not even have time to scream.");
+alert ("you keep on walking..Hey! you seem to be in a volcano. Luckily for you it is not active but it seems to be infested with goblins!");
+alert ("you reach a giant door in front of it is a chest.");
+ userAnswer = prompt ("do you take it yes or no");
+if( userAnswer == "no" )
+{
+    alert ("You walk up the stairs but you have not seen the general lizard behind the door to bad you do not have anything to defend yourself with. You die a painful death!");
+    return;    
+}   
+
+alert ("You got a new shield and 3 more level up for your bow it has become a level 8 bow!");
+alert ("you walk up the stairs, just in time to notice a general lizard hinding behind the chest");
+ userAnswer = prompt ("do you defend yourself with a shield or atack with a sword or try to shoot it with a bow? Tipe bow, sword or shield.");
+if (userAnswer == 'bow')
+{
+  alert ("you try to shoot it but it is too fast. He takes you with his knife tail. Sorry you had not tacken your shield out.");
+  return;
+}
+if (userAnswer == 'sword')
+{
+  alert ("Its too fast it hits you with its tail first, he drags you to the lizard king and you have been turned into a royal meal!");
+  return;
+}
+alert ("clang you defend its whip tail with youre shield, after that the general lizard lands on the floor you take it down with your sword");
+alert ("You return your atention to the door. It looks like a big strong push would be enough to open it!");
+ userAnswer = prompt ("Do you open it yes or no");
+if (userAnswer == 'no')
+{
+  alert ("you scan around the room for treasure you have been so interested in looking for treasure you havent heard the goblin horn soon you are cut in to a million peices and thrown into a burning fire.");
+  return;
+}
+alert ("you push the door open. Just in time for you had heard a goblin horn at the south you cuickly close the door behind your back!");
+alert ("You step in, in time. Wow you almost triped on a dragons tail. Wait what a dragons tail!?! You see that a dragon is snoozing on the floor. But you also see a strange lump next to the dragon its youre best friend Yann Demuyt!!!");
+ userAnswer = prompt ("Do you go straigth and try to save your friend or do you try to kill the dragon first type kill dragon or save friend");
+if (userAnswer == 'save friend')
+{   
+  alert ("You slowly walk to your friend but you have not seen the dragons head you trip on it and fall. Sudenly the dragon wakes up it is a firedrake it burns you to crips.");
+  return;
+}
+alert ("You know that dragons are weakest on their belly but you do not Know how to make him rool over sudenly you have 2 ideas!");
+ userAnswer = prompt ("One try to rool him over with the tip of your sword. Two try to make him change position in his sleep by macking a sound. Type sword changing position, or macking sound changing position");
+if (userAnswer == "sword changing position")
+{
+    alert ("BBBBBBAAAAAAAADDDDDDD CCCCCCCCCCCHHHHHHHHHOOOOOOOOOOOOOOoIIIIIIIIIiCCCCCCCCCEEEEEEEEE!!!!!!!!!!!!!!!");
+    return;
+}
+alert ("you drop a stone on the floor, luck is with you the dragon moves in its sleep and points its belly in your head you stab it in the belly. The dragon wakes up but before it can move its mouth, you stab it again and the dragon drops dead.");
+ alert ("You get your friend and put your arm around him for support.");
+    alert ("You are walking toward a door that you had not seen before in this chamber.");
+    alert ("Inside this room is a elve who takes your friend and tries to help him. You venture further in the room at the end of the room is another chest.");
+     userAnswer = prompt("Do you open it,yes or no.");
+    if (userAnswer == 'yes')
+    {
+        alert ("You open the chest and see nothing inside, just then you get sucked inside the chest and you stay there for ever.");
+        return;
+    }
+    alert ("You decide not to open it, just then you hear a noise a phoenix comes from the sky and sings a song. 'oh heroe of destiny come to me save me for all shall be undone. You will travel far and wide but in your heart it is to know that this is for my cause.'");
+    alert ("Yuor heart fills with joy.");
+    alert ("Suddenly the phoenix drops a item it is a flame thrower that you put on your hand. It also drops 3 healing potions.");
+    alert ("You have won the 2 level you are now entering the 3 level");
+     userAnswer = prompt("Do you give a healing potion to your friend. Yes or no?");
+    if (userAnswer == 'no')
+    {
+        alert ("You decide not to give the potion to your friend yann. Sudenly your friend starts chocking blackness comes inside his body. Then everything stops moving. He has turned into a zombie KING level 67. Your friend slowly chews on your brain");
+        return;
+    }
+alert ("");          
+       
+       
+} //Leave me alone please
+
+function isCheater()
+{
+    var userAnswer = prompt ("tipe in the password to win ataumaticly");
+    return (userAnswer == 'password');
+}    
+        
+function doFeedback()
+{
+    var feedback = prompt("Now that you have played can you please give me a score, it might as well be higer than 8!!");
+  if (feedback > 7)
+        alert ("Dont worry this is just the beggining,next I will have mindblowing stuff!!!!!");
+    else 
+        alert ("What are you giving me that score?!? Well then your dead meat!!!!!!!!!!!!!!!!");
+}
+
+function checkAge()
+{
+    confirm("Continue playing...");
+    var age = prompt("whats your age?");
+    if  (age < 18)
+       alert ("You can continue playing but we take no responsibility");
+    else
+        alert ("Play on my friend,I hope you a winner!");
+}
+    
+function chapter( intro , question, rightanswer, good_story , bad_story )
+{
+ alert( intro );
+ var answer = prompt( question );
+ if( answer == rightanswer )
+ {
+     alert( good_story );
+     return true;
+ }
+    alert( bad_story );
+    return false;
+}    
+checkAge();
+if( isCheater() )
+    doGame();
+else
+    doCheatGame();
+doFeedback();
+        
+function doCheatGame()        
+{
+    
+alert ("A high elfe and a dwarf were hanging out at the merchant, waiting to go to the shops. There was a sale on and both needed some new equipment for their kingdom. You've never really liked dwarfes. You walk up to him.");
+alert ("the dwarf glares at you.");
+alert ("You-  Step out of the line dwarf, the high elfe goes first!");
+alert ("Dwarf-  Are you feeling lucky,punk?");
+var userAnswer = prompt ("answer yes or no");
+if (userAnswer == 'yes')
+{
+    alert ("The dwarf uppercuts you and then knees you in the stomach and slaugthers you with his axe!");
+    return;
+}
+
+alert ("The dwarf knudges you but the high elfe says thank you. The high elfe hops on the buse then you spy a huge chest on the side of the merchant house.");
+ userAnswer = prompt ("do you open it yes or no?");
+if (userAnswer == 'no' )
+{
+  alert ("you turn around for you have felt something on youre back you realise that youre brain is not in youre head but on the floor. You have been atacked by goblins!!!");    
+  return;
+}
+
+alert ("you pick it up and find a level 5 bow and a enchanted sword");
+alert ("you have won the 1 level now you are entering the 2 level tadada!!");
+alert ("you feel yourself teleporting boom you land on a boiled surface. In front of you is a level 3 soldier goblin");
+ userAnswer = prompt ("do you try to take it down with your bow or sword? write bow or sword");
+if (userAnswer == 'bow')
+{
+    alert("You shot it straight in the heart but the goblin screams and the whole tribe of goblins comes out of their caves and surround you");
+    alert("You die a horrible death in their soup pot");
+    return;
+}    
+
+alert ("you swing it and kill him fast he does not even have time to scream.");
+alert ("you keep on walking..Hey! you seem to be in a volcano. Luckily for you it is not active but it seems to be infested with goblins!");
+alert ("you reach a giant door in front of it is a chest.");
+ userAnswer = prompt ("do you take it yes or no");
+if( userAnswer == "no" )
+{
+    alert ("You walk up the stairs but you have not seen the general lizard behind the door to bad you do not have anything to defend yourself with. You die a painful death!");
+    return;    
+}   
+
+alert ("You got a new shield and 3 more level up for your bow it has become a level 8 bow!");
+alert ("you walk up the stairs, just in time to notice a general lizard hinding behind the chest");
+ userAnswer = prompt ("do you defend yourself with a shield or atack with a sword or try to shoot it with a bow? Tipe bow, sword or shield.");
+if (userAnswer == 'bow')
+{
+  alert ("you try to shoot it but it is too fast. He takes you with his knife tail. Sorry you had not tacken your shield out.");
+  return;
+}
+if (userAnswer == 'sword')
+{
+  alert ("Its too fast it hits you with its tail first, he drags you to the lizard king and you have been turned into a royal meal!");
+  return;
+}
+alert ("clang you defend its whip tail with youre shield, after that the general lizard lands on the floor you take it down with your sword");
+alert ("You return your atention to the door. It looks like a big strong push would be enough to open it!");
+ userAnswer = prompt ("Do you open it yes or no");
+if (userAnswer == 'no')
+{
+  alert ("you scan around the room for treasure you have been so interested in looking for treasure you havent heard the goblin horn soon you are cut in to a million peices and thrown into a burning fire.");
+  return;
+}
+alert ("you push the door open. Just in time for you had heard a goblin horn at the south you cuickly close the door behind your back!");
+alert ("You step in, in time. Wow you almost triped on a dragons tail. Wait what a dragons tail!?! You see that a dragon is snoozing on the floor. But you also see a strange lump next to the dragon its youre best friend Yann Demuyt!!!");
+ userAnswer = prompt ("Do you go straigth and try to save your friend or do you try to kill the dragon first type kill dragon or save friend");
+if (userAnswer == 'save friend')
+{   
+  alert ("You slowly walk to your friend but you have not seen the dragons head you trip on it and fall. Sudenly the dragon wakes up it is a firedrake it burns you to crips.");
+  return;
+}
+alert ("You know that dragons are weakest on their belly but you do not Know how to make him rool over sudenly you have 2 ideas!");
+ userAnswer = prompt ("One try to rool him over with the tip of your sword. Two try to make him change position in his sleep by macking a sound. Type sword changing position, or macking sound changing position");
+if (userAnswer == "sword changing position")
+{
+    alert ("BBBBBBAAAAAAAADDDDDDD CCCCCCCCCCCHHHHHHHHHOOOOOOOOOOOOOOoIIIIIIIIIiCCCCCCCCCEEEEEEEEE!!!!!!!!!!!!!!!");
+    return;
+}
+alert ("you drop a stone on the floor, luck is with you the dragon moves in its sleep and points its belly in your head you stab it in the belly. The dragon wakes up but before it can move its mouth, you stab it again and the dragon drops dead.");
+ alert ("You get your friend and put your arm around him for support.");
+    alert ("You are walking toward a door that you had not seen before in this chamber.");
+    alert ("Inside this room is a elve who takes your friend and tries to help him. You venture further in the room at the end of the room is another chest.");
+     userAnswer = prompt("Do you open it,yes or no.");
+    if (userAnswer == 'yes')
+    {
+        alert ("You open the chest and see nothing inside, just then you get sucked inside the chest and you stay there for ever.");
+        return;
+    }
+    alert ("You decide not to open it, just then you hear a noise a phoenix comes from the sky and sings a song. 'oh heroe of destiny come to me save me for all shall be undone. You will travel far and wide but in your heart it is to know that this is for my cause.'");
+    alert ("Yuor heart fills with joy.");
+    alert ("Suddenly the phoenix drops a item it is a flame thrower that you put on your hand. It also drops 3 healing potions.");
+    alert ("You have won the 2 level you are now entering the 3 level");
+     userAnswer = prompt("Do you give a healing potion to your friend. Yes or no?");
+    if (userAnswer == 'no')
+    {
+        alert ("You decide not to give the potion to your friend yann. Sudenly your friend starts chocking blackness comes inside his body. Then everything stops moving. He has turned into a zombie KING level 67. Your friend slowly chews on your brain");
+        return;
+    }
+alert ("");          
+       
+       
+} //Leave me alone please
+
+    
+    </script>
+    </body>
+</html>
